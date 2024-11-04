@@ -1,0 +1,90 @@
+.red {
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+    height: 6rem;
+    aspect-ratio: 2/1;
+    font-size: 1.5rem;
+text-transform: uppercase;
+}
+
+button:hover{
+    box-shadow: 2px 2px 5px gray;
+}
+
+.todoWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#wrapper{
+    text-align: center;
+    background: #e9e9e9;
+  height: 100vh;
+}
+
+form{
+    min-height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#todo{
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+    background: gray;
+}
+
+.todo{
+    font-size: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.checkbox{
+    height: 5rem;
+    aspect-ratio: 1/1;
+}
+
+.buttonsMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.greenText{
+    color: green;
+   text-decoration: underline;
+}

@@ -1,0 +1,1 @@
+export const imageUrl= "https://img.freepik.com/free-vector/credit-card-landing-page-payment-concept_23-2148298750.jpg"

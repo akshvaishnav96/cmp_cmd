@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #111827;
+}
+
+.mainBannerSingleProduct{
+    min-height: 40rem;
+  color: white;
+}
+
+.productDetailMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 2rem;
+ 
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+    background-color: rgba(85, 85, 85, 0.319);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.414);
+}
+
+
+select{
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: orange;
+}
+
+
+.cardBakcground{
+    background-position: center top !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+}
